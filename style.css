@@ -1,0 +1,189 @@
+:root{
+    --orangecolor: #e7761a;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    background: rgb(17, 17, 17);
+}
+
+.profilsection{
+    background: radial-gradient(circle, rgba(28,76,88,1) 0%, rgba(201,96,11,1) 100%);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.photoprofil img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 1px black;
+}
+
+.accountdetails{
+    color: white;
+}
+
+.accountdetails p{
+    margin: 0;
+}
+
+.accountdetails h3{
+    margin: 5px 0px;
+    font-size: 25px;
+}
+
+.detailssection{
+    display: flex;
+    background: url('img/backgames.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.detailssection::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(149deg, rgba(35,37,37,1) 0%, rgba(0,0,0,1) 100%);
+    z-index: 1;
+    opacity: 0.9;
+}
+
+.divrecentlyplayed{
+    padding: 40px;
+}
+
+.paratitle{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.spantitle{
+    font-weight: 300;
+    font-size: 12px;
+    color: var(--orangecolor);
+    cursor: pointer;
+}
+
+.games{
+    display: flex;
+    color: white;
+}
+
+.games div{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.games img{
+    width: 100px;
+}
+
+.games p{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.games span{
+    font-size: 10px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.divachievements{
+    padding: 0px 40px 20px 40px;
+}
+
+.accomplissements{
+    display: flex;
+    column-gap: 40px;
+}
+
+.accomplissements img{
+    width: 70px;
+}
+
+.sectionleft{
+    z-index: 3;
+}
+
+.sectionright{
+    box-shadow: 0px 0px 20px 10px rgb(14, 14, 14);
+    margin: 40px 0px 0px 40px;
+    padding: 30px;
+    z-index: 2;
+    background: linear-gradient(149deg, rgba(35,37,37,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.para1{
+    color: var(--orangecolor);
+    font-weight: 500;
+}
+
+.div1{
+    display: flex;
+    column-gap: 30px;
+}
+
+.div1 img{
+    width: 200px;
+}
+
+.para2{
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.span2{
+    font-size: 15px;
+    font-weight: 100;
+    color: gray;
+    margin: 0;
+}
+
+.comparerscore{
+    border: 2px solid white;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.para3{
+    font-size: 13px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.para4{
+    font-size: 20px;
+    margin: 0;
+    font-weight: 500;
+    color: white;
+}
+
+.para4 span{
+    color: var(--orangecolor);
+}
